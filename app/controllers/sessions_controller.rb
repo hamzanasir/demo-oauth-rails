@@ -1,5 +1,5 @@
 class SessionsController < ApplicationController
   def create
-    puts params
+    @provider_response = request.env['omniauth.auth']
   end
 end

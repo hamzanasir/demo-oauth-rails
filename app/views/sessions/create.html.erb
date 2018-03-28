@@ -1,2 +1,6 @@
 <h1>Sessions#create</h1>
-<p>Find me in app/views/sessions/create.html.erb</p>
+<ul>
+  <li><b>Name</b>: <%=@provider_response['info']['name']%></li>
+  <li><b>Email</b>: <%=@provider_response['info']['email']%></li>
+</ul>
+<pre><%= @provider_response.inspect %></pre>
