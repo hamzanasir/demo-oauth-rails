@@ -1,0 +1,5 @@
+<% if flash[:notice] %>
+    <div class="notice"><%= flash[:notice] %></div>
+<% end %>
+
+<h2><%= link_to 'Log in with GitHub', github_login_url %></h2>
