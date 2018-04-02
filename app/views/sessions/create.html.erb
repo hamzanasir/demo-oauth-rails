@@ -1,7 +1,6 @@
 <h1>Sessions#create</h1>
 <ul>
-  <li><b>UID</b>: <%=@provider_response['uid']%></li>
-  <li><b>Name</b>: <%=@provider_response['info']['name']%></li>
-  <li><b>Email</b>: <%=@provider_response['info']['email']%></li>
+  <li><b>UID</b>: <%=@user.uid%></li>
+  <li><b>Nickname</b>: <%=@user.nickname%></li>
+  <li><b>Email</b>: <%=@user.email%></li>
 </ul>
-<p><%= @provider_response.to_json %></p>
